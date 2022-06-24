@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="szablony/glowna.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid">
+
+        <header class="row mb-5">
+            <div class="col-10 col-sm-9 col-lg-3">
+                <a href="strona_glowna.html" style="text-decoration: none; color: black;">
+                    <h1>FoodDelivery</h1>
+                </a>
+            </div>
+            <div class="col-lg-6 order-last p-2">
+                <input type="text" class="form-control text-center" placeholder="Wpisz lokalizację">
+            </div>
+            <div class="col-2 col-sm-3 col-lg-3 order-lg-last p-0 text-end">
+                <a href="logowanie.html" style="text-decoration: none; color: black;">
+                    <div class="float-end mt-1">
+                        <span class="d-none d-sm-inline konto">Konto</span>
+                        <img class="float-end mx-2" src="szablony/konto_ikona.png" alt="ikona konta"
+                            style="width: 40px;">
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <main class="container d-flex align-content-end flex-wrap mt-5">
+
+            <section class="col-sm-8 col-md-6 col-lg-4 offset-xs-1 offset-sm-2 offset-md-3 offset-lg-4 my-3 ramka tlo">
+                <div class="row text-center">
+                    <div class="col-10 col-sm-8 offset-1 offset-sm-2 my-4">
+                        <h5>E-mail</h5>
+                        <input type="text" class="form-control text-center">
+                    </div>
+                    <div class="col-10 col-sm-8 offset-1 offset-sm-2 mt-1 mb-4">
+                        <h5>Hasło</h5>
+                        <input type="text" class="form-control text-center">
+                    </div>
+                    <div class="col-12 mb-4">
+                        <a href="strona_glowna.html">
+                            <button type="button" class="col-6 btn btn-outline-dark">Zaloguj</button>
+                        </a>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <h6> Nie masz konta ?</h6>
+                        <a href="rejestracja_uzytkownik.html">
+                            <button type="button" class="btn btn-outline-dark">Zarejestruj się</button>
+                        </a>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <h6>Prowadzisz restaurację ?</h6>
+                        <a href="rejestracja_restauracja.html">
+                            <button type="button" class="btn btn-outline-dark">Dodaj ofertę</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer class="mt-auto p-4 stopka">Stopka</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

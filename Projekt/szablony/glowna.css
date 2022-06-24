@@ -1,0 +1,21 @@
+.ramka {
+    border-style: groove;
+}
+
+body {
+    background-image: url('tlo.jpg');
+}
+
+.tlo {
+    background-color: rgb(255, 255, 255);
+}
+
+.konto {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.stopka {
+    background-color: black;
+    color: white;
+}
